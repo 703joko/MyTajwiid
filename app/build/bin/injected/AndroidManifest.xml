@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.github.paolorotolo.appintroexample"
+	android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-sdk
+		android:minSdkVersion="14"
+		android:targetSdkVersion="21"/>
+
+	<application
+		android:allowBackup="true"
+		android:icon="@drawable/ic_launcher"
+		android:label="@string/app_name"
+		android:theme="@style/AppTheme">
+
+		<activity
+			android:name=".animations.DepthAnimation"
+			android:label="@string/app_name"
+			android:theme="@style/AppTheme.BrandedLaunch">
+
+			<intent-filter>
+
+				<action
+					android:name="android.intent.action.MAIN"/>
+
+				<category
+					android:name="android.intent.category.LAUNCHER"/>
+
+			</intent-filter>
+
+		</activity>
+
+		<activity
+			android:theme="@style/AppTheme"
+			android:name=".MainActivity"/>
+
+		<activity
+			android:name=".Nunmati"
+			android:label="Hukum Nun Mati atau Tanwin"
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Mimmati"
+			android:label="Hukum Mim Mati"
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Idgham"
+			android:label="Hukum Idgham"
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Mad"
+			android:theme="@style/AppTheme"/>
+
+		<activity
+			android:name=".Ro"
+			android:label="Hukum Ro’"
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Lam"
+			android:label="Hukum Lam Jalalah"
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Taawuz"
+			android:label="Hukum Taawuz dan Basmalah"
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Tasydid"
+			android:label="Hukum Nun/Mim Bertasydid (مّ/نّ)"
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Waqof"
+			android:theme="@style/AppTheme"/>
+
+		<activity
+			android:name=".Dll"
+			android:label="Selebihnya..."
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Qolqolah"
+			android:label="Hukum Qolqolah"
+			android:theme="@style/TemaNun"/>
+
+		<activity
+			android:name=".Takrif"
+			android:label="Hukum Al-Ta’rif (ال) "
+			android:theme="@style/TemaNun"/>
+
+	</application>
+
+</manifest>
+

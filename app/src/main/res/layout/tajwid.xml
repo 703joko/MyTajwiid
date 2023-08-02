@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/batik" >
+	<ScrollView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical"
+			android:layout_gravity="center_vertical">
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="5dip">
+				<Button
+					android:background="@drawable/btn"
+					android:layout_gravity="center"
+					android:id="@+id/taawuz"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:layout_weight="1"
+					android:text=" Hukum Ta’awuz dan Basmalah " />
+
+				/>
+			</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:padding="5dip">
+		<Button
+			android:background="@drawable/btn"
+			android:layout_gravity="center"
+			android:id="@+id/nunmati"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text=" Hukum Nun Mati/Tanwin " />
+
+		<Button
+			android:background="@drawable/btn"
+			android:layout_gravity="center"
+			android:id="@+id/mimmati"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text=" Hukum Mim Mati " 
+
+		/>
+		</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="5dip"
+				>
+		<Button
+			android:background="@drawable/btn"
+			android:layout_gravity="center"
+			android:id="@+id/idgham"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text=" Hukum Idgham " 
+
+		/>
+
+		<Button
+			android:background="@drawable/btn"
+			android:layout_gravity="center"
+			android:id="@+id/mad"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text=" Hukum Mad " 
+
+		/>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="5dip"
+				>
+
+		<Button
+			android:background="@drawable/btn"
+			android:layout_gravity="center"
+			android:id="@+id/ro"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text=" Hukum Ro’ " 
+
+		/>
+		<Button
+			android:background="@drawable/btn"
+			android:layout_gravity="center"
+			android:id="@+id/lam"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_weight="1"
+			android:text=" Hukum Lam Jalalah" 
+
+		/>
+
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="5dip"
+			>
+				<Button
+					android:background="@drawable/btn"
+					android:layout_gravity="center"
+					android:id="@+id/takrif_"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:text=" Hukum Al-Ta’rif (ال) " 
+					android:layout_weight="1"
+
+				/>
+
+		<Button
+			android:background="@drawable/btn"
+			android:layout_gravity="center"
+			android:id="@+id/tasydid"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text=" Hukum Mim/Nun Tasydid (مّ/نّ)" 
+			android:layout_weight="1"
+				/>
+			</LinearLayout>
+			
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="5dip"
+				>
+				<Button
+					android:background="@drawable/btn"
+					android:layout_gravity="center"
+					android:id="@+id/qolqolah"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:text=" Hukum Qolqolah " 
+					android:layout_weight="1"
+				/>
+
+				<Button
+					android:background="@drawable/btn"
+					android:layout_gravity="center"
+					android:id="@+id/waqof"
+					android:layout_width="fill_parent"
+					android:layout_height="fill_parent"
+					android:text=" Tanda tanda Waqof " 
+					android:layout_weight="1"
+				/>
+			</LinearLayout>
+			<LinearLayout
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="5dip"
+				>
+		
+
+		<Button
+			android:background="@drawable/btn"
+			android:layout_gravity="center"
+			android:id="@+id/dll"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:text=" Hukum hukum lain" 
+			android:layout_weight="1"
+		/>
+		</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+</RelativeLayout>

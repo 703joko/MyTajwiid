@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FolderLayout">
+
+        <attr name="handlerHeight" format="dimension" />
+        <attr name="minHandlerHeight" format="dimension" />
+        <attr name="coverColor" format="color" />
+
+    </declare-styleable>
+
+</resources>

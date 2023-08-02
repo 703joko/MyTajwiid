@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="judul_halaman1">Mad Asli</string>
+	<string name="judul_halaman2">Mad Far’i</string>
+	<string name="judul_halaman3">Mad Far’i</string>
+    <string name="idzhar">\n
+Idzhar/Idzhar Halqi. Menurut bahasa, Idzhar artinya jelas dan terang.\n
+Menurut istilah yaitu mengeluarkan huruf dari makhrajnya tanpa memakai dengung pada huruf yang diidzharkan.\n
+Hukum Idzhar: Apabila Nun Sukun atau Tanwin bertemu salah satu dari 6 Huruf Halqi( ha ( ھ), hamzah ( أ), ghoin (غ), ‘ain (ع), kho (خ), dan kha (ح)) maka dibaca JELAS.</string>
+    <string name="id_bigunnah">\n
+Idgham Bighunnah/ma‘al gunnah berlaku jika nun mati atau tanwin bertemu dengan huruf mim (م), nun (ن), wau (و), atau ya (ي), maka ia harus dibaca LEBUR DENGAN DENGUNG.</string>
+    <string name="id_bilagunnah">\n
+Idgham Bilaghunnah berlaku jika nun mati atau tanwin bertemu dengan huruf ra (ر) atau lam (ل), maka ia harus dibaca LEBUR TANPA DENGUNG.
+</string>
+    <string name="idgham">\n
+Idgham terbagi menjadi dua, yakni :</string>
+    <string name="satukata">\n
+Jika nun mati atau tanwin bertemu dengan keenam huruf idgham tersebut tetapi ditemukan dalam satu kata, seperti بُنْيَانٌ, اَدُّنْيَا, قِنْوَانٌ, dan صِنْوَانٌ, maka nun mati atau tanwin tersebut dibaca Izdhar Mutlaq (JELAS).\n
+dalam Al-Qur’an hanya ada 4, yaitu :</string>
+    <string name="satukata_">\n
+Jika nun sukun dalam huruf bertemu waw maka bacaannya adalah izdhar mutlaq.\n
+dalam Al-Qur’an hanya ada 2, yaitu :</string>
+    <string name="ikhfa">\n
+Ikhfa/Ikhfa haqiqi berlaku jika nun mati atau tanwin bertemu dengan huruf-huruf seperti ta(ت), tha (ث), jim (ج), dal (د), dzal (ذ), zai (ز), sin (س), syin (ش), sod (ص), dhod (ض), tho (ط), zho (ظ), fa (ف), qof (ق), dan kaf (ك), maka cara membacanya harus SAMAR-SAMAR (antara Izhar dan Idgham)</string>
+    <string name="iqlab">\n
+Hukum Iqlab terjadi apabila nun mati atau tanwin bertemu dengan huruf ba (ب). Dan cara membacanya yakni nun mati atau tanwin berubah menjadi bunyi mim (م) dan dibaca DENGUNG.
+</string>
+    <string name="ikhfa_syafawi">\n
+Ikhfa Syafawi (ﺇﺧﻔﺎﺀ ﺷﻔﻮﻱ) berlaku apabila mim mati (مْ) bertemu dengan ba (ب), maka cara membacanya harus dibunyikan samar-samar di bibir dan dibaca didengungkan.</string>
+    <string name="idgham_mislain">\n
+Idgham Mimi ( إدغام ميمى)/Idgham Mislain/Mutanasilain berlaku apabila mim mati (مْ) bertemu dengan mim (م), maka cara membacanya adalah seperti menyuarakan mim rangkap atau ditasyidkan dan wajib dibaca dengung.</string>
+    <string name="idzhar_syafawi">\n
+Izhar Syafawi (ﺇﻇﻬﺎﺭ ﺷﻔﻮﻱ) berlaku apabila mim mati (مْ) bertemu dengan salah satu huruf hijaiyyah selain huruf mim (مْ) dan ba (ب), maka cara membacanya dengan jelas di bibir dan mulut tertutup.</string>
+    <string name="hukum_idgham">Idgham (ﺇﺩﻏﺎﻡ) adalah berpadu atau bercampur antara dua huruf atau memasukkan satu huruf ke dalam huruf yang lain. Maka dari itu, bacaan idgham harus dilafazkan dengan cara meleburkan suatu huruf kepada huruf setelahnya.\n
+Hukum Idgham dibagi menjadi tiga.</string>
+    <string name="mutamatsilain">\n
+Idgham mutamatsilain (ﺇﺩﻏﺎﻡ ﻣﺘﻤﺎﺛﻠﻴﻦ – yang serupa) ialah pertemuan antara dua huruf(satu huruf mati/sukun dan satu lagi berharakat) yang sama sifat dan makhrajnya (tempat keluarnya). Seperti huruf dal bertemu dal, huruf ba‘ bertemu ba‘ dan sebagainya. Hukumnya adalah wajib diidghamkan.\n
+Pengecualian :\n
+1. mim (م) sukun dan mim (م) berharakat : - Idgham Mislan (dengung).\n
+2. nun ( ن) sukun dan nun ( ن) berharakat: - Idgaham bi ghunnah (dengung).\n
+3. huruf-huruf mad (ا و ي) - di baca panjang sebagaimana mestinya (hukum mad).</string>
+    <string name="mutajanisain">\n
+Idgham mutajanisain (ﺇﺩﻏﺎﻡ ﻣﺘﺠﺎﻧﺴﻴﻦ - yang sejenis) ialah pertemuan antara dua huruf yang sama makhrajnya tetapi tidak sama sifatnya seperti ta‘ dan tha, lam dan ra‘ serta dzal dan zha.\n
+Cara membaca idgham mutajanisain ialah dengan mentasydidkan huruf yang ke dua, yang berarti huruf pertama diabaikan.\n
+\n
+هَمَّتْ طَائِفَةٌ = هَمَّ طَّائِفَةٌ – قُلْ رَبِّ = قُـرَّبِّ – اِذْ ظَلَمُوْا = اِظَّلَمُوْا
+
+</string>
+    <string name="mutaqaribain">\n
+Idgham mutaqaribain (ﺇﺩﻏﺎﻡ ﻣﺘﻘﺎﺭﺑﻴﻦ) ialah pertemuan dua huruf yang sifat dan makhrajnya berdekatan.\n
+Cara membaca idgham mutaqaribain adalah dengan mengabaikan huruf pertama dan membaca huruf kedua secara bertasdid.\n
+dalam Al-Qur’an hanya ada 2, yaitu :</string>
+    <string name="action_exit">Exit</string>
+    <string name="tab_one_title">Idzhar</string>
+    <string name="tab_two_title">Idgham</string>
+    <string name="tab_three_title">Ikhfa</string>
+    <string name="tab_four_title">Iqlab</string>
+    <string name="tab_enam_title">Ikhfa Syafawi</string>
+    <string name="tab_lima_title">Idgham Mislain</string>
+    <string name="tab_tujuh_title">Idzhar Syafawi</string>
+    <string name="tab_x_title">Mutamatsilain</string>
+    <string name="tab_y_title">Mutajanisain</string>
+    <string name="tab_z_title">Mutaqaribain</string>
+    <string name="tab_kubro_title">Kubro/Besar</string>
+    <string name="tab_xa_title">Tafkhim/Tebal</string>
+    <string name="tab_ya_title">Tarqiq/Tipis</string>
+    <string name="tab_za_title">Jawazul Wajhain</string>
+    <string name="tab_sugro_title">Sugro/Kecil</string>
+    <string name="tab_syam_title">Idgom Syamsiyah</string>
+    <string name="tab_qom_title">Idzhar Qomariyah</string>
+    <string name="hukum_mad">Apabila ada alif ( ا ) terletak sesudah fathah, atau ya’ sukun ( ي ) sesudah kasrah ( ―ِ ), atau wau ( و ) sesudah dhammah ( ―ُ ).\n
+Pada dasarnya mad itu dibagi menjadi 2 , yaitu mad asli dan mad far‘i.\n
+Mad Asli adalah mad yang panjangnya 1 alif karena tidak bertemu hamzah, sukun atau tasydid.\n
+Mad Far’i adalah mad yang panjangnya lebih dari 1 alif, karena bertemu hamzah, sukun atau tasydid. </string>
+    <string name="mad_tobi_harfi">\n
+Adalah Mad yang panjangnya satu alif atau dua harokat.\n
+Dalam hal ini akan kita temukan pada pembukaan surat-surat ( fawatihussuar ).\n
+Hurufnya terkumpul dalam kalimat : حيٌ طَهُرَ.</string>
+    <string name="mad_asli">\n
+Apabila ada alif ( ا ) terletak sesudah fathah, atau ya’ sukun ( ي ) sesudah kasrah ( ―ِ ), atau wau ( و ) sesudah dhammah ( ―ُ ), maka dihukumi mad thobi’i . Mad artinya panjang , thobi’i artinya biasa.\n
+Cara membacanya harus sepanjang dua harakat atau disebut satu alif.</string>
+    <string name="mad_a">\n
+Apabila ada mad thobi’i bertemu dengan hamzah ( ء ) didalam satu kalimat atau kata.\n
+Cara membacanya wajib panjang sepanjang 5 harakat atau dua setengah kali mad thobi’i ( dua setengah alif ).</string>
+    <string name="mad_b">\n
+Apabila Mad Thobi’i bertemu dengan Huruf Hamzah(ء)/hamzah berupa huruf alif di lain kalimat.\n
+Jika Mad Thobi’i-nya terletak pada akhir sebuah kata, kemudian hamzah-nya terletak di awal kata berikutnya,  dibaca panjangnya boleh 4 atau 5 harakat ketika bersambung (washal), 2 harakat ketika waqaf (berhenti).</string>
+    <string name="mad_c">\n
+Terjadi dari Mad Thobi’i yang diikuti oleh huruf bertasydid, dimana keduanya masih berada pada satu kata.\n
+Bila tanda tasydid berada di lain kata, maka tidak terjadi mad.\n
+Cara membacanya harus panjang selama 3 kali Mad Thobi’i atau 6 harakat.</string>
+    <string name="mad_d">\n
+Mad yang terjadi dari pertemuan antara Mad Badal dengan huruf  bertanda sukun (mati). Durasi membacanya adalah 6 harokat.\n
+Disebut Mad Lazim karena mesti dibaca panjang.\n
+Dinamakan Kalimi karena mad itu terjadi dalam satu kata.\n
+Dinamakan Mukhoffaf, karena ringan mengucapkannya, dengan tidak adanya tasydid.\n
+Kasus mad ini hanya terjadi di 2 tempat dalam Al-quran, yaitu pada surat Yunus(10) ayat 51 dan 91.</string>
+    <string name="mad_e">\n
+Mad layyin(mad lin) secara bahasa artinya lunak atau juga bisa disebut miring. /n
+Hukum bacaan mad layyin terjadi ketika huruf berharakat fathah atau dhammah bertemu huruf ya (ي) atau wau (و) sedangkan setelahnya ada huruf yang dimatikan karena waqaf (berhenti). Jadi apabila setelahnya lebih dari satu huruf tidah bisa dikatakan mad layyin.\n
+Mad layyin juga dapat berfungsi ketika waqof yang telah ditentukan sperti akhir ayat ataupun tanda waqof lainnya. Atau juga bisa berfungsi ketika kita memutuskan bacaan ditengah-tengah ayat karena beberapa faktor seperti kehabisan nafas dan lain sebagainya.\n
+Cara membacanya adalah dengan membaca huruf yang berharakat fathah atau dhommah terlebih dahulu, langsung disambung dengan wau sukun atau ya’ sukun dan kemudian diakhiri dengan huruf sesudahnya yang di matikan karena waqof. Panjang bacaan mad layyin bisa di panjangkan 2, atau 4 atau 6 harakat.</string>
+    <string name="mad_f">\n
+Mad (panjang bacaan), arid (bertemu) dan lissukun (dimatikan karena waqof). Sedangkan secara istilah, mad arid lissukun adalah cara memanjangkan bacaan pada saat berhenti (waqof) baik di akhir maupun di tengah ayat.\n
+Berlaku apabila ada waqaf atau tempat pemberhentian membaca, sedang sebelum waqaf itu ada Mad Thobi’i atau Mad Lein, maka cara membacanya ada 3 macam :\n
+a. Yang lebih utama dibaca panjang seperti mad wajib muttashil ( 6 harakat ).\n
+b. Yang pertengahan dibaca empat harakat yakni dua kali mad thobi’i.\n
+c. Yang pendek yakni boleh hanya dibaca seperti mad thobi’i biasa .</string>
+    <string name="mad_g">\n
+Juga bisa disebut Mad Silah Sugro. Apabila ada haa dhamir ( ﻪ ) berada diantara dua huruf yang berharokat (bukan huruf mati) dan (ﻪ/ﻩ) tersebut huruf yang berharakat dan tidak disambungkan dengan huruf berikutnya, dan tidak bertemu dengan hamzah( ء ) yang berharakat.\n
+Cara membacanya adalah dipanjangkan sampai 2 harokat(dua ketukan).</string>
+    <string name="mad_h">\n
+Apabila ada haa dhamir ( ﻪ ) bertemu huruf hamzah( ء ) yang berharokat dan huruf sebelum haa dhamir ( ﻪ ) tersebut juga berharokat.\n
+Cara membacanya adalah dipanjangkan 4 harokat(4 ketukan) atau 5 harokat(5 Ketukan).</string>
+    <string name="mad_i">\n
+Apabila ada fathatain yang jatuh pada waqaf(pemberhentian) pada akhir kalimat, maka cara membacanya seperti mad thobi’i atau sepanjang 2 harokat.</string>
+    <string name="mad_j">\n
+Apabila ada hamzah( ء ) bertemu dengan Mad , maka cara bacanya seperti Mad Thobi’i atau sepanjang 2 harokat.\n
+Badal artinya ganti. Karena yang sebenarnya huruf mad yang ada tadi asalnya hamzah yang jatuh sukun kemudian diganti menjadi ya atau alif atau wau.</string>
+    <string name="mad_k">\n
+Apabila ada huruf mad bertemu tasydid dalam huruf. Panjang bacaannya 3 alif (6 harokat).\n
+untuk lebih jelasnya silahkan lihat contoh.</string>
+    <string name="mad_l">\n
+Apabila pada permulaan surat dari Al-Qur’an terdapat salah satu atau lebih dari antara huruf yang delapan, yakni\n
+ن - ق – ص – ع – س – ل – ك – م , \n
+Cara membacanya seperti Mad Lazim yaitu 6 harakat .</string>
+    <string name="mad_m">\n
+Apabila ada ya’ sukun ( يْ ) yang didahului dengan ya’ yang bertasydid dan harakatnya kasra, dan cara membacanya ditepatkan dengan t.</string>
+    <string name="mad_n">\n
+Yaitu bertemunya dua hamzah yang satu hamzah istifham dan yang kedua hamzah washol pada lam alif ma’rifat, cara membacanya sepanjang 6 harakat.</string>
+    <string name="waqof">\n
+Waqaf dari sudut bahasa ialah berhenti atau menahan, manakala dari sudut istilah tajwid ialah menghentikan bacaan sejenak dengan memutuskan suara di akhir perkataan untuk bernapas dengan niat ingin menyambungkan kembali bacaan.\n
+Terdapat empat jenis waqaf yaitu:\n
+– Taamm (ﺗﺂﻡّ)/waqaf sempurna yaitu mewaqafkan atau memberhentikan pada suatu bacaan yang dibaca secara sempurna, tidak memutuskan di tengah-tengah ayat atau bacaan, dan tidak mempengaruhi arti dan makna dari bacaan karena tidak memiliki kaitan dengan bacaan atau ayat yang sebelumnya maupun yang sesudahnya.\n
+– Kaaf (ﻛﺎﻒ)/waqaf memadai yaitu mewaqafkan atau memberhentikan pada suatu bacaan secara sempurna, tidak memutuskan di tengah-tengah ayat atau bacaan, namun ayat tersebut masih berkaitan makna dan arti dari ayat sesudahnya.\n
+– Hasan (ﺣﺴﻦ)/waqaf baik yaitu mewaqafkan bacaan atau ayat tanpa mempengaruhi makna atau arti, namun bacaan tersebut masih berkaitan dengan bacaan sesudahnya.\n
+
+– Qabiih (ﻗﺒﻴﺢ)/waqaf buruk yaitu mewaqafkan atau memberhentikan bacaan secara tidak sempurna atau memberhentikan bacaan di tengah-tengah ayat, wakaf ini harus dihindari karena bacaan yang diwaqafkan masih berkaitan lafaz dan maknanya dengan bacaan yang lain.</string>
+    <string name="waqof_lain">\n
+Tanda-tanda waqaf lainnya :\n
+1. Tanda mim ( مـ ) disebut juga dengan Waqaf Lazim. yaitu berhenti di akhir kalimat sempurna. Wakaf Lazim disebut juga Wakaf Taamm (sempurna) karena wakaf terjadi setelah kalimat sempurna dan tidak ada kaitan lagi dengan kalimat sesudahnya. Tanda mim ( م ), memiliki kemiripan dengan tanda tajwid iqlab, namun sangat jauh berbeda dengan fungsi dan maksudnya.\n
+2. tanda tho ( ﻁ ) adalah tanda Waqaf Mutlaq dan haruslah berhenti.\n
+3.tanda jim ( ﺝ ) adalah Waqaf Jaiz. Lebih baik berhenti seketika di sini walaupun diperbolehkan juga untuk tidak berhenti.\n
+4. tanda zha ( ﻇ ) bermaksud lebih baik tidak berhenti.\n
+5. tanda sad ( ﺹ ) disebut juga dengan Waqaf Murakhkhas, menunjukkan bahwa lebih baik untuk tidak berhenti namun diperbolehkan berhenti saat darurat tanpa mengubah makna. Perbedaan antara hukum tanda zha dan sad adalah pada fungsinya, dalam kata lain lebih diperbolehkan berhenti pada waqaf sad.\n
+6. tanda sad-lam-ya’ ( ﺻﻠﮯ ) merupakan singkatan dari “Al-washl Awlaa” yang bermakna “wasal atau meneruskan bacaan adalah lebih baik”, maka dari itu meneruskan bacaan tanpa mewaqafkannya adalah lebih baik.\n
+7. tanda qaf ( ﻕ ) merupakan singkatan dari “Qiila alayhil waqf” yang bermakna “telah dinyatakan boleh berhenti pada wakaf sebelumnya”, maka dari itu lebih baik meneruskan bacaan walaupun boleh diwaqafkan.\n
+8. tanda sad-lam ( ﺼﻞ ) merupakan singkatan dari “Qad yuushalu” yang bermakna “kadang kala boleh diwasalkan”, maka dari itu lebih baik berhenti walau kadang kala boleh diwasalkan.\n
+9. tanda Qif ( ﻗﻴﻒ ) bermaksud berhenti! yakni lebih diutamakan untuk berhenti. Tanda tersebut biasanya muncul pada kalimat yang biasanya pembaca akan meneruskannya tanpa berhenti.\n
+10. tanda sin ( س ) atau tanda Saktah ( ﺳﮑﺘﻪ ) menandakan berhenti seketika tanpa mengambil napas. Dengan kata lain, pembaca haruslah berhenti seketika tanpa mengambil napas baru untuk meneruskan bacaan.\n
+11. tanda Waqfah ( ﻭﻗﻔﻪ ) bermaksud sama seperti waqaf saktah ( ﺳﮑﺘﻪ ), namun harus berhenti lebih lama tanpa mengambil napas.\n
+12. tanda Laa ( ﻻ ) bermaksud “Jangan berhenti!”. Tanda ini muncul kadang-kala pada penghujung maupun pertengahan ayat. Jika ia muncul di pertengahan ayat, maka tidak dibenarkan untuk berhenti dan jika berada di penghujung ayat, pembaca tersebut boleh berhenti atau tidak.\n
+13. tanda kaf ( ﻙ ) merupakan singkatan dari “Kadzaalik” yang bermakna “serupa”. Dengan kata lain, makna dari waqaf ini serupa dengan waqaf yang sebelumnya muncul.\n
+14. tanda bertitik tiga ( … …) yang disebut sebagai Waqaf Muraqabah atau Waqaf Ta’anuq (Terikat). Waqaf ini akan muncul sebanyak dua kali di mana-mana saja dan cara membacanya adalah harus berhenti di salah satu tanda tersebut. Jika sudah berhenti pada tanda pertama, tidak perlu berhenti pada tanda kedua dan sebaliknya.</string>
+
+    <string name="app_name">My Tajwid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="skip">Hukum hukum Tajwid...</string>
+    <string name="t_satu">\n
+Tajwīd (تجويد) secara harfiah mengandung arti melakukan sesuatu dengan elok dan indah atau bagus dan membaguskan, tajwid berasal dari kata ” Jawwada ” (جوّد-يجوّد-تجويدا) dalam bahasa Arab. Dalam ilmu Qiraah, tajwid berarti mengeluarkan huruf dari tempatnya dengan memberikan sifat-sifat yang dimilikinya. Jadi ilmu tajwid adalah suatu ilmu yang mempelajari bagaimana cara melafazkan atau mengucapkan huruf-huruf yang terdapat dalam kitab suci Al-Quran maupun Hadist dan lainnya.\n
+
+Arti lainnya dari ilmu tajwid adalah melafazkan, membunyikan dan menyampaikan dengan sebaik-baiknya dan sempurna dari tiap-tiap bacaan dalam ayat Al-Quran. Menurut para Ulama besar menyatakan bahwa hukum bagi seseorang yang mempelajari tajwid adalah Fardhu Kifayah, yakni dengan mengamalkan ilmu tajwd ketika memabaca Al-Quran dan Fardhu ‘Ain atau wajib hukumnya baik laki-laki atau perempuan yang mu’allaf atau seseorang yang baru masuk dan mempelajari Islam dan KitabNya.\n
+
+Mengenal, mempelajari dan mengamalkan ilmu tajwid berserta pemahaman akan ilmu tajwid itu sendiri merupakan hukum wajib suatu ilmu yang harus dipelajari, untuk menghindari kesalahan dalam membaca ayat suci Al-Quran dan melafazkannya dengan baik dan benar sehingga tiap ayat-ayat yang dilantunkan terdengar indah dan sempurna.</string>
+    <string name="t_dua">\n
+Istilah yang harus diperhatikan dan diketahui dalam pembacaan Al-Quran, diantaranya :\n
+a. Makharijul huruf, yakni tempat keluar masuknya huruf.\n
+b. Shifatul huruf, yakni cara melafalkan atau mengucapkan huruf.\n
+c. Ahkamul huruf, yakni hubungan antara huruf.\n
+d. Ahkamul maddi wal qasr, yakni panjang dan pendeknya dalam melafazkan ucapan dalam tiap ayat Al-Quran.\n
+e. Ahkamul waqaf wal ibtida’, yakni mengetahui huruf yang harus mulai dibaca dan berhenti pada bacaan bila ada tanda huruf tajwid.\n
+f. Al-Khat dan Al-Utsmani.\n
+\n
+Dalil atau pernyataan shahih dari Allah SWT yang mewajibkan setiap HambaNya untuk membaca Al-Quran dengan memahami tajwid, diantaranya :\n
+1. Di ambil dari Al-Quran. Allah SWT berfirman dalam ayatNya yang artinya “Dan bacalah Al-Qur’an itu dengan perlahan/tartil (bertajwid)”[QS:Al-Muzzammil (73): 4].\n
+2. Diambil dari As-Sunnah ( Hadist ) yang diriwayatkan oleh Ummu Salamah r.a.(istri Nabi Muhammad SAW), ketika beliau ditanya tentang bagaimana bacaan Al-Quran dan sholat Rasulullah SAW, maka beliau menjawab: ”Ketahuilah bahwa Baginda S.A.W. Sholat kemudian tidur yang lamanya sama seperti ketika beliau sholat tadi, kemudian Baginda kembali sholat yang lamanya sama seperti ketika beliau tidur tadi, kemudian tidur lagi yang lamanya sama seperti ketika beliau sholat tadi hingga menjelang shubuh. Kemudian dia (Ummu Salamah) mencontohkan cara bacaan Rasulullah S.A.W. dengan menunjukkan (satu) bacaan yang menjelaskan (ucapan) huruf-hurufnya satu persatu.” (Hadits 2847 Jamik At-Tirmizi).\n
+3. Diambil dari Ijma atau pendapat para ulama besar Islam. Yakni kesepakatan para ulama yang dilihat dari zaman Rasulullah SAW hingga sampai saat ini, yang menyatakan bahwa membaca Al-Quran dengan ber-Tajwid merupakan hukum atau sesuatu yang fardhu dan wajib.</string>
+    <string name="t_tiga">\n
+Hukum-hukum dan komponen ilmu tajwid yang harus dikenal dipelajari, dipahami serta diamalkan dalam membaca Al-Quran, yakni :\n
+- Hukum Ta’awuz dan Basmalah.\n
+Isti’azah atau ta’awuz adalah melafazkan atau membunyikannya : “A’uzubillahi minasy syaitaanir rajiim” (ﺍﻋﻮﺬ ﺑﺎﻟﻠﻪ ﻣﻦ ﺍﻟﺸﻴﻄﻥ ﺍﻟﺮﺟﻴﻢ).\n
+\n
+cara melafazkan basmalah adalah bunyinya:\n
+“Bismillahir rahmaanir rahiim” (ﺑﺴﻢ ﺍﻟﻠﻪ ﺍﻟﺮﺤﻤﻦ ﺍﻟﺮﺤﻴﻢ).\n
+\n
+Terdapat 4 cara membaca ta’awuz, basmalah dan surat :\n
+a. memutuskan ta’awuz (berhenti) kemudian baru membaca basmalah.\n
+b. menyambungkan basmalah dengan surah tanpa berhenti.\n
+c. membaca ta’awuz dan basmalah terus-menerus tanpa henti.\n
+d. membaca ta’awuz, basmalah dan awal surat terus-menerus tanpa berhenti.\n
+\n
+Terdapat 4 cara membaca basmalah di antara dua surat. Membaca basmalah adalah tanda awal dimulai suatu bacaan dalam surat Al-Quran. Guna dari membaca basmalah suatu keharusan dengan tujuan :\n
+a. Basmalah sebagai pemisah dengan surat Al-Quran yang lain\n
+b. Sebagai penghubung dengan awal surat Al-Quran\n
+c. Sebagai penghubung dari kesemua surat Al-Quran\n
+d. Menghubungkan akhir surat dengan basamalah, lalu berhenti. Namun basamalah tidak selalu menjadi surat awal yang harus terus dibaca untuk melanjutkan surat berikutnya. Walau bagaimana pun, tidak harus membaca demikian karena dikhawatirkan ada yang mengganggap basmalah merupakan salah satu ayat daripada surat yang sebelumnya.</string>
+
+    <string name="kubro">\n
+Apabila salah satu daripada huruf qalqalah itu dimatikan karena waqaf atau berhenti. Dalam keadaan ini, qalqalah dilakukan apabila bacaan diwaqafkan tetapi tidak diqalqalahkan apabila bacaan diteruskan.</string>
+    <string name="sugro">\n
+Apabila salah satu daripada huruf qalqalah itu berbaris mati dan baris matinya adalah asli karena harakat sukun dan bukan karena waqaf.</string>
+    <string name="qolqolah_">Qalqalah (ﻗﻠﻘﻠﻪ) adalah bacaan pada huruf-huruf qalqalah dengan bunyi seakan-akan berdetik atau memantul. Huruf qalqalah ada lima yaitu qaf (ق), tha (ط), ba’ (ب), jim (ج), dan dal (د). Qalqalah terbagi menjadi dua jenis.</string>
+    <string name="tafkhim">\n
+Tafkhim menurut bahasa adalah tebal, sedangkan menurut istilah Tafkhim (تَفْخِيْمُ) adalah menebalkan huruf tertentu dengan cara mengucapkan huruf tertentu dengan cara mengucapkan huruf di bibir (mulut) dengan menjorokkan ke depan (bahasa Jawa mecucu).Cara membacanya yaitu dengan bibir sedikit kemuka atau monyong.</string>
+    <string name="tarqiq">\n
+Menurut bahasa Tarqiq (تَرْقِيْقٌ) adalah tibis sedangkan menurut istilah Tarqiq (تَرْقِيْقٌ) adalah membunyikan huruf-huruf tertentu dengan suara atau bacaan tipis. dan Cara membacanya yaitu dengan menarik bibir sedikit mundur sehingga agak meringis.</string>
+    <string name="jw">\n
+Jawazul Wajhain ( جواز الـوجـهـيـن ) secara bahasa artinya boleh wajah dua , sedangkan menurut istilah jawazul wajhain adalah ra yang boleh dibaca tafkhim (tebal) atau tarqiq (tipis). Jika ada ra sukun didahului oleh huruf berharakat kasrah sesudahnya ada huruf  isti’la bearharakat kasrah . (huruf isti’la’ yang dikasrah  +  رْ + ـِـ  ).</string>
+	<string name="taawuz">Hukum membaca Ta’awuz ketika akan membaca Al-Qur’an adalah SUNNAH.\n\n
+Bacaan Ta’awuz dan contoh bacanya :</string>
+
+	<string name="basmalah">Hukum membaca basmalah ada 5 :\n
+1. Wajib\n
+    yaitu dipermulaan surat Al-Fatihah.\n
+2. Haram\n
+    yaitu diawal surat At-Taubah.\n
+3. Sunnah\n
+    dikerjakan berpahala, ditinggalkan merugi.\n
+    yaitu di permulaan surat kecuali surat At-Taubah dan l-Fatihah.\n
+4. Makruh\n
+    ditinggalkan berpahala, dikerjakan dibenci atau dicela.\n
+    yaitu pertengahan surat At-Taubah.\n
+5. Jaiz\n
+    Jaiz atau Mubah artinya terserah kita. dikerjakan tidak berpahala, ditinggalkan tidak dosa.\n
+    yaitu dipertengahan surat selain di surat At-Taubah.\n\n
+Bacaan Basmalah dan contoh bacanya :</string>
+	<string name="lam_tebal">Yaitu apabila lafaz Allah didahului fathah atau dommah.\n\n
+Contoh :</string>
+	<string name="lam_tipis">Yaitu apabila lafaz Allah didahului harokat kasroh.\n\n
+Contoh :</string>
+    <string name="syam">\n
+Idgom syamsiyah adalah Al-ta’rif (ال) bertemu salah satu dari huruf syamsiyah ( ت ث د ذ ر ز س ش ص ض ط ظ ل ن ) dan cara membacanya yakni suara Alif lam (ال) di idghamkan ke dalam huruf Syamsiyah yang ada dihadapannya, sehingga suara alif lam menjadi lebur karena dimasukkan dengan huruf Syamsiyah tersebut.</string>
+	<string name="qom">\n
+Izdhar qomariyah adalah Al-ta’rif (ال) bertemu salah satu dari huruf qomariyah ( ب ج ح خ ع غ ف ق ك م و غ ه ء ي ا ) dan cara membacanya yakni Al Qamariyah harus dibaca jelas dan terang. AlifLam yang dirangkaikan dengan salah satu huruf Qamariyah maka Alif Lam (ال) harus dibaca jelas.</string>
+	<string name="gunnah">\n
+Hukum nun/mim bertasydid (مّ/ نّ ) ada satu yaitu Izharul gunnah. atau sering disebut ghunnah musyaddadah ( غُنَّةُ مُشَدَّدَةٌ ).\n
+Cara membaca ghunnah musyaddadah yaitu dengan menghentakkan suara mim atau nun yang bertasydid, didengungkan secara nyata ke pangkal hidung.</string>
+
+	<string name="washol">\n
+Hamzah Wasal di awal kata adalah huruf tambahan yang hanya dibaca ketika hamzah tersebut berada di permulaan bacaan dan digugurkan bacaannya/ tidak di baca jika disambung dengan kata sebelumnya/ ketika berada ditengah.\n
+\n
+Hamzah wasal terkadang harus di baca kasrah, dhomah ataupun fathah tergantung pada sebab - sebab berikut ini:
+</string>
+	<string name="iwad">\n
+Nun ’Iwad juga dikenali dengan Nun Wasal atau Nun Wiqaayah. \n
+Pada beberapa mushaf telah di beri tanda huruf nun kecil yang di sebut dengan Nun Qutni, \n
+\n
+Terjadi jika baris Tanwin (baris dua) bertemu dengan Alif Lam ( ال ) atau Hamzah Wasal ( ا ), \n
+\n
+Cara membacanya : \n
+huruf yang bertanwin itu akan dibaca satu baris saja dan dan di depannya akan di tambahkan huruf Nun berbaris kasrah (walaupun ia tidak ada pada tulisan).\n
+Contoh : </string>
+
+	<string name="isymam">\n
+Hanya ada satu ayat yang terdapat bacaan Isymam dalam Al-Quran, yaitu pada Qs: Yusuf ayat: 11\n
+Isymam di baca dengan mengisaratkan bibir seolah-olah sedang mengeluarkan kata "nu" namun tanpa suara, ketika mentasydidkan nun yang berwarna merah pada ayat berikut ini: </string>
+	<string name="imalah">\n
+Imalah adalah mencondongkan bunyi bacaan baris fathah lebih hampir kepada bunyi baris kasrah. Hanya ada satu tempat bacaan imalah: Surah Huud: 41 \n
+\n
+perhatikan yang berwarna merah 
+</string>
+</resources>

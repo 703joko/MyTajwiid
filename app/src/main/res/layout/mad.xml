@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:background="@drawable/allah"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+	<com.github.paolorotolo.appintroexample.animations.EasyViewpagerUIKu android:id="@+id/id_viewpagerku" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.v4.view.PagerTabStrip android:textColor="#ffffffff" android:id="@+id/id_judul" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="top" android:background="#90C604BF" />
+        <LinearLayout android:id="@+id/id_halaman1" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#8526C445">
+            <!-- isi halaman 1 -->
+			<com.github.paolorotolo.appintroexample.FolderLayout
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/folder_layout"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				app:handlerHeight="40dp"
+				app:minHandlerHeight="12dp"
+			><!-- isi halaman -->
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#0058F8D6"
+				>
+
+					<TextView
+						android:id="@+id/item15"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Thobi’i ( مَدْ طَبِيعِي )"
+						android:gravity="center"
+						android:textColor="#FFF"
+						android:background="@drawable/bg"/>
+					<ScrollView
+						android:layout_below="@+id/item15"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_asli"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_asli"
+								/>
+								<Button
+									android:id="@+id/mad_asli"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+				<!-- isi halaman 1 -->
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#0058F8D6"
+				>
+
+					<TextView
+						android:id="@+id/item14"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Tobi’i Harfi"
+						android:gravity="center"
+						android:textColor="#FFF"
+						android:background="@drawable/bg"/>
+					<ScrollView
+						android:layout_below="@+id/item14"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_tobi_harfi"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_tobi_harfi"
+								/>
+								<Button
+									android:id="@+id/mad_tobi_harfi"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+				<!-- isi halaman 1 -->
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00afffcc"
+				>
+
+					<TextView
+						android:id="@+id/item13"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Badal ( مَدْ بَدَلْ )"
+						android:gravity="center"
+						android:background="@drawable/bg"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item13"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_j"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_badal"
+								/>
+								<Button
+									android:id="@+id/mad_j"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+				
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00fa6edc"
+				>
+
+					<TextView
+						android:id="@+id/item12"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad ‘Iwadl ( مَدْ عِوَض )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item12"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_i"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_iwad"
+								/>
+								<Button
+									android:id="@+id/mad_i"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+				<!-- isi halaman x -->
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00008442"
+				>
+
+					<TextView
+						android:id="@+id/item11"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Shilah Qashirah ( مَدْ صِلَة قَصِيْرَة )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item11"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_g"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_silah_qasirah"
+								/>
+								<Button
+									android:id="@+id/mad_g"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00aa234c"
+				>
+
+					<TextView
+						android:id="@+id/item10"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Tamkien ( مَدْ تَمْكِيْن )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item10"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_m"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_tamkien"
+								/>
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+				
+				
+
+			</com.github.paolorotolo.appintroexample.FolderLayout>
+			<!-- isi halaman 1 -->	
+        </LinearLayout>
+        <LinearLayout android:id="@+id/id_halaman2" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#85CF7209">
+            <!-- isi halaman 2 -->
+			<com.github.paolorotolo.appintroexample.FolderLayout
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/folder_layout"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				app:handlerHeight="40dp"
+				app:minHandlerHeight="12dp"
+			>
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00CBBB66"
+				>
+
+					<TextView
+						android:id="@+id/item16"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Wajib Muttashil ( مَدْوَاجِبْ مُتَّصِلْ )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item16"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_a"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_wajib_muttasil"
+								/>
+								<Button
+									android:id="@+id/mad_a"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00CC6FA6"
+				>
+					<TextView
+						android:id="@+id/item6"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Jaiz Munfashil ( مَدْجَائِزمُنْفَصِلْ)"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item6"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_b"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_jaiz_munfasil"
+								/>
+								<Button
+									android:id="@+id/mad_b"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00005CC4"
+				>
+
+					<TextView
+						android:id="@+id/item9"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad ‘Aridl Lissukun ( مَدْ عارِضْ لِلسُّكوُنِ )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item9"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_f"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_arid_lisukun"
+								/>
+								<Button
+									android:id="@+id/mad_f"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00A90900"
+				>
+
+					<TextView
+						android:id="@+id/item5"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Layyin ( مَدْ لَين )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item5"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_e"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_lin"
+								/>
+								<Button
+									android:id="@+id/mad_e"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+				
+				
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00BB96CD"
+				>
+
+					<TextView
+						android:id="@+id/item7"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Shilah Thawilah ( مَدْ صِلَة طَََوِيْلَة )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item7"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_h"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_silah_tawilah"
+								/>
+								<Button
+									android:id="@+id/mad_h"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+				
+			</com.github.paolorotolo.appintroexample.FolderLayout>
+				
+			
+			<!-- isi halaman 2 -->
+        </LinearLayout>
+		<LinearLayout android:id="@+id/id_halaman3" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#850840CF">
+            <!-- isi halaman 3 -->
+			<com.github.paolorotolo.appintroexample.FolderLayout
+				xmlns:app="http://schemas.android.com/apk/res-auto"
+				android:id="@+id/folder_layout"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				app:handlerHeight="40dp"
+				app:minHandlerHeight="12dp"
+			>
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#006669CB"
+				>
+
+					<TextView
+						android:id="@+id/item8"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Lazim Mutsaqqal Kilmi ( مَدْﻻَزِمْ مُثَقَّلْ كِلْمِي )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item8"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_c"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/lazim_musaqol_kalimi"
+								/>
+								<Button
+									android:id="@+id/mad_c"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#007f9e5c"
+				>
+
+					<TextView
+						android:id="@+id/item4"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Lazim Musaqqol Harfi"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item4"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_k"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/lazim_musaqol_harfi"
+								/>
+								<Button
+									android:id="@+id/mad_k"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#00fff6cc"
+				>
+
+					<TextView
+						android:id="@+id/item3"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Lazim Mukhaffaf Harfi ( مَدْ لازِم حَرفِ مُخَفَّف )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item3"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_l"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/lazim_mukhofaf_harfi"
+								/>
+								<Button
+									android:id="@+id/mad_l"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#0066B7CB"
+				>
+
+					<TextView
+						android:id="@+id/item2"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Lazim Mukhaffaf Kilmi ( مَدْﻻَزِمْ مُخَفَّف كِلْمِي )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item2"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_d"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_lazim_mukhaffaf_kalimi_1"
+								/>
+								<Button
+									android:id="@+id/mad_d_1"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_lazim_mukhaffaf_kalimi_2"
+								/>
+								<Button
+									android:id="@+id/mad_d_2"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:background="#005666cc"
+				>
+
+					<TextView
+						android:id="@+id/item1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="Mad Farq ( مَدْ فَرْق )"
+						android:background="@drawable/bg"
+						android:gravity="center"
+						android:textColor="#FFF"/>
+
+					<ScrollView
+						android:layout_below="@+id/item1"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="match_parent">
+
+							<LinearLayout
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="25.0dip"
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="@string/mad_n"
+								/>
+
+							</LinearLayout>
+
+
+							<LinearLayout
+								android:orientation="vertical"
+								android:background="@drawable/bgg"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content">
+
+								<TextView
+									android:textColor="#FFF"
+									android:padding="10.0dip"
+									android:textSize="24sp"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh"/>
+								<ImageView
+									android:paddingBottom="0dip"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:src="@drawable/mad_farq"
+								/>
+								<Button
+									android:id="@+id/mad_n"
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:gravity="center_horizontal"
+									android:text="Contoh Suara"/>
+
+							</LinearLayout>
+
+						</LinearLayout>
+					</ScrollView>
+
+				</RelativeLayout>
+
+			</com.github.paolorotolo.appintroexample.FolderLayout>
+			
+			<!-- isi halaman 2 -->	
+        </LinearLayout>
+	</com.github.paolorotolo.appintroexample.animations.EasyViewpagerUIKu>
+	
+    
+
+</LinearLayout>

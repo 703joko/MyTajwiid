@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="top">
+	<TextView
+        android:text="Lam jalalah adalah lamnya lafaz (الله) Allāh.\n
+hukum Lam jalalah ada dua yaitu :"
+		android:textSize="22sp"
+		android:background="#75000000"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Tafkhim (Tebal)"
+        android:id="@+id/t2"
+		android:textSize="22sp"
+		android:background="@drawable/bg"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<LinearLayout 
+			android:background="@drawable/bgg"
+			android:id="@+id/tt2"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center">
+			<TextView android:padding="10dip"
+				android:text="@string/lam_tebal"
+				android:textSize="18sp"
+				android:textColor="#ffffff"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/lam_tebal"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			<Button
+				android:id="@+id/tebal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="Contoh Suara"/>
+		</LinearLayout>
+	</ScrollView>
+    <TextView
+        android:text="Tarqiq (Tipis)"
+        android:id="@+id/b2"
+		android:textSize="22sp"
+		android:background="@drawable/bg"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<LinearLayout 
+			android:background="@drawable/bgg"
+			android:id="@+id/bb2"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center">
+			<TextView android:padding="10dip"
+				android:text="@string/lam_tipis"
+				android:textSize="18sp"
+				android:textColor="#ffffff"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/lam_tipis"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			<Button
+				android:id="@+id/tipis"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="Contoh Suara"/>
+		</LinearLayout>
+	</ScrollView>
+
+
+</LinearLayout>

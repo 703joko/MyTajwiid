@@ -1,0 +1,416 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+	android:background="@drawable/allah"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="top">
+<ScrollView 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:gravity="top">
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="top">
+    <TextView
+        android:text="Hukum Alif"
+        android:id="@+id/q"
+		android:textSize="22sp"
+		android:background="@drawable/bgt"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textStyle="bold"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<LinearLayout 
+			android:background="@drawable/bggg"
+			android:id="@+id/qq"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="left">
+			<TextView android:paddingLeft="15.0dip"
+				android:text="1. Tafkhim"
+				android:textSize="22sp"
+				android:textColor="#ff000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:paddingLeft="25.0dip"
+				android:text="Alif dibaca tebal ketika sebelumnya berupa huruf tafkhim(tebal).\n
+				Contoh :"
+				android:textSize="18sp"
+				android:textColor="#ff000000"
+	
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/alif_taf"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			
+			<TextView android:paddingLeft="15.0dip"
+				android:text="2. Tarqiq"
+				android:textSize="22sp"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:paddingLeft="25.0dip"
+				android:text="Alif dibaca tipis ketika sebelumnya berupa huruf tarqiq(tipis).\n
+				Contoh :"
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/alif_tar"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			
+		</LinearLayout>
+	</ScrollView>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="5.0dip"
+		android:src="#00000000"
+		android:id="@+id/img"
+		android:layout_gravity="center"/>
+    <TextView
+        android:text="Bacaan Tafkhim dan Tarqiq"
+        android:id="@+id/w"
+		android:textSize="22sp"
+		android:background="@drawable/bgt"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textStyle="bold"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<LinearLayout 
+			android:background="@drawable/bggg"
+			android:id="@+id/ww"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center">
+			<TextView android:paddingLeft="15.0dip"
+				android:text="1. Tafkhim"
+				android:textSize="22sp"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:paddingLeft="25.0dip"
+				android:text="Huruf yang dibaca tebal atau disebut dengan huruf isti’la’ dan cara membacanya mecucu yakni ada 7, yaitu :"
+				android:textSize="18sp"
+				android:textColor="#000000"
+
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/istila"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			<TextView android:paddingLeft="15.0dip"
+				android:text="2. Tarqiq"
+				android:textSize="22sp"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<TextView android:paddingLeft="25.0dip"
+				android:text="Selain hurus isti’la’, semua huruf hijaiyah dibaca tipis atau disebut istifal, kecuali alif, lam dan ro’. dan cara membaca huruf istifal yakni dengan meringis."
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			
+		</LinearLayout>
+	</ScrollView>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="5.0dip"
+		android:src="#00000000"
+		android:id="@+id/img"
+		android:layout_gravity="center"/>
+	<TextView
+        android:text="Nun ’Iwad"
+        android:id="@+id/e"
+		android:textSize="22sp"
+		android:background="@drawable/bgt"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textStyle="bold"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<LinearLayout 
+			android:background="@drawable/bggg"
+			android:id="@+id/ee"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center">
+			<TextView android:padding="10dip"
+				android:text="@string/iwad"
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/mad_iwad"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			<Button
+				android:id="@+id/iwad"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="Contoh Suara"/>
+		</LinearLayout>
+	</ScrollView>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="5.0dip"
+		android:src="#00000000"
+		android:id="@+id/img"
+		android:layout_gravity="center"/>
+	<TextView
+        android:text="Hamzah Washol"
+        android:id="@+id/r"
+		android:textSize="22sp"
+		android:background="@drawable/bgt"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textStyle="bold"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<LinearLayout 
+			android:background="@drawable/bggg"
+			android:id="@+id/rr"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center">
+			<TextView android:paddingLeft="15dip"
+				android:text="@string/washol"
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<TextView android:paddingLeft="25dip"
+				android:text="• Fathah\n
+				Apabila hamzah wasal bertemu dengan lam ta’rif \n
+\n
+				Contoh: Attaaibuunal'aaduun "
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/qobla_lamtarif"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			<TextView android:paddingLeft="25dip"
+				android:text="• Dhommah\n
+				Huruf ketiga pada kata kerja berbaris dhommah kecuali pada Surah Al-Ahqaaf:04 (dibaca dengan kasrah mengikut hukum ibdal)  \n
+				\n
+				Contoh: Ud’u"
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/dhommah"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			<TextView android:paddingLeft="25dip"
+				android:text="• Kasroh\n
+				- Pada kata nama masdar tanpa lam ta'rif yang terdiri dari lima atau enam huruf. \n
+				\n
+				Contoh: Istikbaaraa "
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/kasrah"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			<TextView android:paddingLeft="25dip"
+				android:text="\n
+				- Huruf ketiga pada kata kerja berbaris fatha atau kasrah \n
+				\n
+				Contoh: Ihdinaa"
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/kasrah2"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			
+		</LinearLayout>
+	</ScrollView>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="5.0dip"
+		android:src="#00000000"
+		android:id="@+id/img"
+		android:layout_gravity="center"/>
+	<TextView
+        android:text="Isymam"
+        android:id="@+id/t"
+		android:textSize="22sp"
+		android:background="@drawable/bgt"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textStyle="bold"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<LinearLayout 
+			android:background="@drawable/bggg"
+			android:id="@+id/tt"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center">
+			<TextView android:padding="10dip"
+				android:text="@string/isymam"
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/isymam"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+		</LinearLayout>
+	</ScrollView>
+
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="5.0dip"
+		android:src="#00000000"
+		android:id="@+id/img"
+		android:layout_gravity="center"/>
+	<TextView
+        android:text="Imalah"
+        android:id="@+id/y"
+		android:textSize="22sp"
+		android:background="@drawable/bgt"
+		android:gravity="center"
+		android:textColor="#fff"
+		android:textStyle="bold"
+		android:paddingTop="10dip"
+		android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+	<ScrollView 
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center">
+
+		<LinearLayout 
+			android:background="@drawable/bggg"
+			android:id="@+id/yy"
+			android:visibility="gone"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:gravity="center">
+			<TextView android:padding="10dip"
+				android:text="@string/imalah"
+				android:textSize="18sp"
+				android:textColor="#000000"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:src="@drawable/imalah"
+				android:id="@+id/img"
+				android:layout_gravity="center"
+				android:gravity="left" />
+			<Button
+				android:id="@+id/imalah"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:text="Contoh Suara"/>
+		</LinearLayout>
+	</ScrollView>
+	<ImageView
+		android:layout_width="fill_parent"
+		android:layout_height="5.0dip"
+		android:src="#00000000"
+		android:id="@+id/img"
+		android:layout_gravity="center"/>
+</LinearLayout>
+</ScrollView>
+</LinearLayout>
